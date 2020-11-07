@@ -28,7 +28,7 @@ namespace Bank_DB.Data
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
              //   optionsBuilder.UseSqlite("Data Source=D:\\program files\\SQLiteStudio-3.2.1\\Bank\\Bank.db");
-                optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=Bank.db");
+                optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=Bank.db; Integrated Security=True");
             }
         }
 
