@@ -64,13 +64,13 @@ namespace Bank_DB.Data
 
                 entity.Property(e => e.DepRafMark).HasColumnType("INT");
 
-                entity.Property(e => e.DeposDate).HasColumnType("DataTime");
+                entity.Property(e => e.DeposDate).HasColumnType("DATETIME");
 
                 entity.Property(e => e.FullName).HasColumnType("VARCHAR");
 
                 entity.Property(e => e.PhoneNum).HasColumnType("INT");
 
-                entity.Property(e => e.RefundDate).HasColumnType("DataTime");
+                entity.Property(e => e.RefundDate).HasColumnType("DATETIME");
 
                 entity.Property(e => e.SummAm).HasColumnType("INT");
 
